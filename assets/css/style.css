@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.startContainer
+{
+    width:100%;
+    margin-left:450px;
+    border-left:4px solid black;
+}
+
+.mainContainer
+{
+    width:47%;
+    align-items:center;
+    background-color:black;
+    color:white;
+    border-top:1px solid white;
+    margin-top:0px;
+}
+
+
+.header
+{
+    width:44%;
+    border-style:0px 1px 0px 1px;
+    background-color:black;
+    padding:25px;
+    align-items:center;
+    color:white;
+} 
+
+
+.user
+{
+    font-size:30px;
+}
+
+/* 
+.search
+{
+    width:12%;
+    height:15px;
+    margin-left:50px;
+    font-size:20px;
+    padding:30px;
+    border-radius:15px;
+    background-color:black;
+}
+*/
+
+
+
+.header .material-icons
+{
+   display:inline-block;
+   margin-left:200px;
+    cursor:pointer;
+    transition:0.3s ease all; 
+    font-size:xx-large;   
+}
+
+.material-icons:hover
+{
+   background-color:transparent;
+   border-radius:10px;
+ 
+}
+
+input
+{
+    width:25%;
+    background-color:black;
+    cursor:text;
+}
+
+
+.profile
+{
+    width:50%;
+    height:auto;
+    border:2px solid red;
+    border:none;
+    display:inline-flex;
+}
+
+.img
+{
+    position:absolute;
+    width:20%;
+    height:300px;
+    border:1px solid black;
+    border-radius:50%;
+    padding:15px;
+    border:none;
+    position:cover;
+}
+
+.text
+{
+    margin-top:200px;
+    margin-left:-450px;
+    display:inline;
+}
+
+.content
+{
+    display:flex;
+    margin-left:300px;
+    margin-right:20px;
+    padding:40px;
+    font-size:20px;
+}
+
+.content h3
+{
+    padding:30px;
+    text-align:center;
+}
+
+.btn 
+{
+    margin-top:180px;
+    margin-left:-200px;
+    display:inline-block;
+    background-color:black;
+    border:none;
+}
+
+.btn3
+{
+    font-size:10px;
+    text-decoration:none;
+    border:1px solid blue;
+    border-radius:10px;
+    padding:15px;
+    background-color:black;
+    color:white;
+}
+
+.icon3
+{
+    margin-left:-80px;
+    margin-top:-23px;
+    cursor:pointer;
+}
+
+/* Story */
+
+.mainStory
+{
+   margin-top:1px;
+}
+
+.story 
+{
+    width:15.6%;
+    height:150px;
+    border:1px solid red;
+    display:inline-block;
+    border-radius:50%;
+    padding:13px;
+    background-image:url("../media/img.jpg");
+    background-size:cover;
+    transition:0.2s ease all;
+}
+
+.story:hover
+{
+   width:17%; 
+}
+
+.icons 
+{
+    width:100%;
+    height:auto;
+    display:flex;
+    padding:40px;
+}
+
+.icon .material-icons
+{
+    margin-left:150px;
+}
+
+.allPosts
+{
+    width:45.6;
+    height:auto;
+}
+
+.post 
+{
+    width:30%;
+    padding:11px;
+    height:200px;
+    display:inline-block;
+    background-size:cover;
+    background-image:url("../media/img.jpg");
+}
+
+
+
+
